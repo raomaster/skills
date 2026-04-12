@@ -66,6 +66,27 @@ npx skills@latest add raomaster/skills/experiment-runner
 
 ---
 
+### chrome-devtools
+
+Complement to the official [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) plugin. Covers privacy-first setup (`--no-usage-statistics`), per-project context management (on/off), when to use this MCP vs Playwright, and ethical hacking patterns (Burp proxy, recon, endpoint mapping).
+
+**Install skill:**
+```bash
+npx skills@latest add raomaster/skills/chrome-devtools
+```
+
+**Setup MCP in current project (local scope, no tracking):**
+```sh
+# 1. Install official plugin (MCP + official skills) — restart Claude Code after
+/plugin marketplace add ChromeDevTools/chrome-devtools-mcp
+/plugin install chrome-devtools-mcp
+
+# 2. Add MCP scoped to this project
+claude mcp add chrome-devtools --scope local -- npx -y chrome-devtools-mcp@latest --no-usage-statistics
+```
+
+---
+
 ## Install all skills at once
 
 ```bash
@@ -75,6 +96,7 @@ npx skills@latest add raomaster/skills/skill-creator
 npx skills@latest add raomaster/skills/save-knowledge
 npx skills@latest add raomaster/skills/autoresearch
 npx skills@latest add raomaster/skills/experiment-runner
+npx skills@latest add raomaster/skills/chrome-devtools
 ```
 
 ---
