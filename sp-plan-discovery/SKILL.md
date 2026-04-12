@@ -12,7 +12,7 @@ An interrogation-first layer that replaces going directly to brainstorming. Its 
 Add to your project's `CLAUDE.md`:
 
 ```
-sp-plan-discovery reemplaza ir directo a brainstorming — nunca invocar brainstorming sin pasar por él.
+Use sp-plan-discovery instead of going directly to brainstorming — never invoke brainstorming without running this skill first.
 ```
 
 ## How to Run This
