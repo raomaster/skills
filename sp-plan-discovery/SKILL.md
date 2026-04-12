@@ -1,6 +1,6 @@
 ---
 name: sp-plan-discovery
-description: Use before any brainstorming or planning session when the idea needs interrogation first. Conducts a relentless one-question-at-a-time interview to surface assumptions, constraints, risks, and open decisions before any design work begins. Triggers on "I want to build X", "help me plan Y", "I need to think through Z".
+description: Use before any brainstorming or planning session when the idea needs interrogation first — the user has stated a goal but the problem, constraints, or assumptions are unclear. Triggers on "I want to build X", "help me plan Y", "I need to think through Z".
 ---
 
 # sp-plan-discovery
@@ -19,7 +19,7 @@ Interview the user relentlessly about every aspect of the idea until you reach a
 - When a fork appears (option A vs B), work through it before moving to the next topic.
 - Surface and name hidden assumptions the moment you detect them.
 - Maintain the language of the current conversation throughout. Do not switch languages unless the user explicitly asks.
-- Do not rush toward brainstorming. Discovery is done when the idea has no significant unexplored forks.
+- Do not rush toward brainstorming. Discovery is done when all eight areas in "What to Explore" have been addressed and no answer introduced a new unresolved fork.
 
 ## What to Explore
 
