@@ -5,7 +5,15 @@ description: Use when the user wants to brainstorm or plan something — this re
 
 # sp-plan-discovery
 
-An interrogation-first layer that runs before brainstorming or planning. Its job is to surface what is unknown, assumed, or contradictory — so that brainstorming starts from clarity, not fog.
+An interrogation-first layer that replaces going directly to brainstorming. Its job is to surface what is unknown, assumed, or contradictory — so that brainstorming starts from clarity, not fog.
+
+## Setup
+
+Add to your project's `CLAUDE.md`:
+
+```
+sp-plan-discovery reemplaza ir directo a brainstorming — nunca invocar brainstorming sin pasar por él.
+```
 
 ## How to Run This
 
