@@ -1,6 +1,6 @@
 ---
 name: save-knowledge
-description: Use when a decision, discovery, plan outcome, or important finding needs to be saved for future reference. Routes automatically to the available knowledge source: kb command if present, otherwise creates a markdown file in docs/decisions/.
+description: "Use when a decision, discovery, plan outcome, or important finding needs to be saved for future reference. Routes automatically to the available knowledge source: kb command if present, otherwise creates a markdown file in docs/decisions/."
 ---
 
 # save-knowledge
