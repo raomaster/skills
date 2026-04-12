@@ -1,6 +1,6 @@
 ---
 name: sp-plan-discovery
-description: Use before any brainstorming or planning session when the idea needs interrogation first — the user has stated a goal but the problem, constraints, or assumptions are unclear. Triggers on "I want to build X", "help me plan Y", "I need to think through Z".
+description: Use before any brainstorming or planning session, always — no exceptions. Triggers on "I want to build X", "help me plan Y", "I need to think through Z". If context already answers all areas, produce the handoff summary immediately without asking questions.
 ---
 
 # sp-plan-discovery
