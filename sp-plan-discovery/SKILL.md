@@ -1,6 +1,6 @@
 ---
 name: sp-plan-discovery
-description: Use before any brainstorming or planning session, always — no exceptions. Triggers on "I want to build X", "help me plan Y", "I need to think through Z". If context already answers all areas, produce the handoff summary immediately without asking questions.
+description: Use when the user wants to brainstorm or plan something — this replaces going directly to superpowers:brainstorming. Interrogates first, then hands off to brainstorming with resolved context. Triggers on "I want to build X", "help me plan Y", "I need to think through Z".
 ---
 
 # sp-plan-discovery
