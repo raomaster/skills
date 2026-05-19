@@ -38,12 +38,16 @@ ${CONTENT}"
     echo "Appending to memory..."
     mkdir -p "$VAULT/memory"
 
+    # Escape double quotes for valid YAML (parser is line-based, not a full YAML parser)
+    SAFE_TITLE=$(printf '%s' "$TITLE" | sed 's/"/\\"/g')
+    SAFE_CONTENT=$(printf '%s' "$CONTENT" | sed 's/"/\\"/g' | tr '\n' ' ')
+
     # Append claim (file may already exist with other claims from today)
     cat >> "$MEMORY_FILE" << CLAIMEOF
-- claim: "${TITLE}"
+- claim: "${SAFE_TITLE}"
   memory_type: ${MEMORY_TYPE}
   confidence: ${CONFIDENCE}
-  context: "${CONTENT}"
+  context: "${SAFE_CONTENT}"
 CLAIMEOF
     echo "Appended to ${MEMORY_FILE}"
 else
